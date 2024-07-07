@@ -41,7 +41,7 @@ function bubbleSort(arr) {
         [arr[i + 1], arr[i]] = [arr[i], arr[i + 1]];
         swap = true;
         // Do not move this console.log
-        console.log(arr.join(","));
+        // console.log(arr.join(","));
       }
     }
   }
