@@ -37,3 +37,5 @@ measurePerformance(seedData)
 // arrays. For smaller arrays, it is almost linear. Reference, image.png added in the folder
 // Here n is the size of array and t is the time in miliseconds required for bubbleSort to execute for
 // a particular array
+// For each iteration with swaps, we iterate through the whole array again until we reach an iteration
+// with no swaps and thus we have a O(n^2) worst case time complexity

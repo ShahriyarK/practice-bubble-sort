@@ -38,6 +38,9 @@ function bubbleSort(arr) {
       // If the current value is greater than its neighbor to the right
       // Swap those values
       if (arr[i] > arr[i + 1]) {
+        // for arrays we can simply assign the array elements to variables of our choice through
+        // desctructuring whereas in case of objects, we have to specify the object's property against
+        // which we are destructuring
         [arr[i + 1], arr[i]] = [arr[i], arr[i + 1]];
         swap = true;
         // Do not move this console.log
